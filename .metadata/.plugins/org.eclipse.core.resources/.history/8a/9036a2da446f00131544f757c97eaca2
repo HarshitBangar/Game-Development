@@ -1,0 +1,9 @@
+package com.test.canyonbunny;
+
+//Class for Storing the configs
+
+public class Constants {
+	
+	public static final float VIEWPORT_WIDTH = 5f;
+
+}

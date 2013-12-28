@@ -1,0 +1,29 @@
+package com.test.canyonbunny.game;
+
+import com.badlogic.gdx.assets.AssetErrorListener;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.utils.Disposable;
+
+public class Assets implements Disposable, AssetErrorListener {
+
+	public static final String TAG = Assets.class.getName();
+	public static final Assets instance = new Assets();
+	private AssetManager assetManager;
+
+	private Assets(){
+		
+	}
+	
+	@Override
+	public void error(String fileName, Class type, Throwable throwable) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

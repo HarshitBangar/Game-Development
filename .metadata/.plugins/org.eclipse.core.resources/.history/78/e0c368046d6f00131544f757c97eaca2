@@ -1,0 +1,29 @@
+package com.test.canyonbunny.game;
+
+import com.badlogic.gdx.graphics.g2d.Sprite;
+
+
+public class WorldController {
+
+	private static final String TAG = WorldController.class.getName();
+	
+	public Sprite[] testSprites;
+	public int selectedSprite;
+	
+	public WorldController(){
+		init();
+	}
+	
+	private void init(){
+		initTestObjects();
+	}
+	
+	private void initTestObjects(){
+		//Creating the sprites
+		testSprites  = new Sprite()[5];
+	}
+	
+	public void update(float deltaTime){
+		
+	}
+}

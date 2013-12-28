@@ -1,0 +1,41 @@
+package com.test.canyonbunny.game;
+
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.test.canyonbunny.game.WorldController;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.Disposable;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+
+public class WorldRenderer implements Disposable{
+	
+	private OrthographicCamera camera;
+	private SpriteBatch batch;
+	private WorldController worldController;
+	
+	private static final String TAG = WorldRenderer.class.getName();
+
+	public WorldRenderer(WorldController _worldController){
+		
+		worldController = _worldController;
+		
+	}
+	
+	private void init () { 
+		
+	}
+	
+	public void render () { 
+		
+	}
+	
+	public void resize (int width, int height) { 
+		
+	}
+
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

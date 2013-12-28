@@ -1,0 +1,8 @@
+package com.test.canyonbunny.game;
+
+
+public class WorldRenderer {
+	
+	private static final String TAG = WorldRenderer.class.getName();
+
+}

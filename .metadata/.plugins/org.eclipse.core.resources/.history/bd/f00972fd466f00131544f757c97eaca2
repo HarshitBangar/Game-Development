@@ -1,0 +1,10 @@
+package com.test.canyonbunny.game;
+
+
+public class WorldController {
+
+	public WorldController(){
+		
+	}
+	
+}

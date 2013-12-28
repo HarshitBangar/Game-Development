@@ -1,0 +1,21 @@
+package com.test.canyonbunny.game;
+
+import com.test.canyonbunny.CanyonBunny;
+
+
+public class WorldController {
+
+	private static final String TAG = CanyonBunny.class.getName();
+	
+	public WorldController(){
+		
+	}
+	
+	private void init(){
+		
+	}
+	
+	public void update(float deltaTime){
+		
+	}
+}
